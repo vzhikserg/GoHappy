@@ -1,6 +1,6 @@
 # GoHappy
 The solution for the „What the hack!“ hackathon (http://www.hackathon.click/) developed by the Austrian team. The event took part from 24.06.2016 till 26.06.2016 in St.Salvator 9361 (Austria).
-<img style="float: right;" src="wth.png">
+<img style="float: right;" src="images/wth.png">
 
 ## The Team KOO-KOO
 
