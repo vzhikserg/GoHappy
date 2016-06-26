@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.1)
+  - CircleProgressBar (0.31)
+  - SwiftLocation (0.9.0)
+  - ZAlertView (0.1.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - CircleProgressBar (~> 0.31)
+  - SwiftLocation
+  - ZAlertView
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  CircleProgressBar: 1de5fc6ba919174b845bc2447720db67f8cb6c08
+  SwiftLocation: f18e71300a89f2a81001c9615b7694150e6b84de
+  ZAlertView: 5ee0f447d067fe141aa278579e0b9b9f1ca83edb
+
+PODFILE CHECKSUM: c4f3715a2711630a26e0bac8bc64db4eae554f78
+
+COCOAPODS: 1.0.1

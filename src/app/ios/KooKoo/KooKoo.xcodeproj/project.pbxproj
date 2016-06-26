@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08AE40E51D1DEB0600952711 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AE40E41D1DEB0600952711 /* NotificationCenter.framework */; };
+		08AE40E81D1DEB0600952711 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE40E71D1DEB0600952711 /* TodayViewController.swift */; };
+		08AE40EB1D1DEB0600952711 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40E91D1DEB0600952711 /* MainInterface.storyboard */; };
+		08AE40EF1D1DEB0600952711 /* KooKooTodayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 08AE40E31D1DEB0600952711 /* KooKooTodayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		08AE40F51D1DEED000952711 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE40F41D1DEED000952711 /* APIClient.swift */; };
+		08AE40F71D1E863900952711 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE40F61D1E863900952711 /* TrackingViewController.swift */; };
+		08AE40F91D1E8BDD00952711 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE40F81D1E8BDD00952711 /* Globals.swift */; };
+		08AE40FF1D1E8E8900952711 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FB1D1E8E8900952711 /* CircularStd-Black.otf */; };
+		08AE41001D1E8E8900952711 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FB1D1E8E8900952711 /* CircularStd-Black.otf */; };
+		08AE41011D1E8E8900952711 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FC1D1E8E8900952711 /* CircularStd-Bold.otf */; };
+		08AE41021D1E8E8900952711 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FC1D1E8E8900952711 /* CircularStd-Bold.otf */; };
+		08AE41031D1E8E8900952711 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FD1D1E8E8900952711 /* CircularStd-Book.otf */; };
+		08AE41041D1E8E8900952711 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FD1D1E8E8900952711 /* CircularStd-Book.otf */; };
+		08AE41051D1E8E8900952711 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FE1D1E8E8900952711 /* CircularStd-Medium.otf */; };
+		08AE41061D1E8E8900952711 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08AE40FE1D1E8E8900952711 /* CircularStd-Medium.otf */; };
+		08AE41081D1E8F8F00952711 /* ZoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE41071D1E8F8F00952711 /* ZoneCell.swift */; };
+		08AE41091D1E8F8F00952711 /* ZoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE41071D1E8F8F00952711 /* ZoneCell.swift */; };
+		08AE410C1D1E962F00952711 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE410B1D1E962F00952711 /* UIColor+.swift */; };
+		08AE410D1D1E962F00952711 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE410B1D1E962F00952711 /* UIColor+.swift */; };
+		08AE41101D1EA9B100952711 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE410F1D1EA9B100952711 /* UIView+Animations.swift */; };
+		08AE41111D1EA9B100952711 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE410F1D1EA9B100952711 /* UIView+Animations.swift */; };
+		08AE41161D1EBBD200952711 /* ABNScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE41151D1EBBD200952711 /* ABNScheduler.swift */; };
+		08B8D1061D1DB09500437B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8D1051D1DB09500437B87 /* AppDelegate.swift */; };
+		08B8D10B1D1DB09500437B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B8D1091D1DB09500437B87 /* Main.storyboard */; };
+		08B8D10D1D1DB09500437B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B8D10C1D1DB09500437B87 /* Assets.xcassets */; };
+		08B8D1101D1DB09500437B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B8D10E1D1DB09500437B87 /* LaunchScreen.storyboard */; };
+		08B8D1181D1DB0F400437B87 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8D1171D1DB0F400437B87 /* HomeViewController.swift */; };
+		08FCE2EA1D1F331A006E6AE1 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FCE2E91D1F331A006E6AE1 /* SecurityViewController.swift */; };
+		7192BD823829EE7603A25250 /* Pods_KooKoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6138D362D210AB95396381 /* Pods_KooKoo.framework */; };
+		BC7DBC8F7A5B6CF89D4F34AD /* Pods_KooKooTodayWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C76BC25A9904BB5010B35 /* Pods_KooKooTodayWidget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08AE40ED1D1DEB0600952711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B8D0FA1D1DB09500437B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08AE40E21D1DEB0600952711;
+			remoteInfo = KooKooTodayWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08AE40F31D1DEB0600952711 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				08AE40EF1D1DEB0600952711 /* KooKooTodayWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08AE40E31D1DEB0600952711 /* KooKooTodayWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KooKooTodayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AE40E41D1DEB0600952711 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		08AE40E71D1DEB0600952711 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		08AE40EA1D1DEB0600952711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		08AE40EC1D1DEB0600952711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AE40F41D1DEED000952711 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		08AE40F61D1E863900952711 /* TrackingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		08AE40F81D1E8BDD00952711 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		08AE40FB1D1E8E8900952711 /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
+		08AE40FC1D1E8E8900952711 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		08AE40FD1D1E8E8900952711 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		08AE40FE1D1E8E8900952711 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		08AE41071D1E8F8F00952711 /* ZoneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoneCell.swift; sourceTree = "<group>"; };
+		08AE410B1D1E962F00952711 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		08AE410F1D1EA9B100952711 /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		08AE41151D1EBBD200952711 /* ABNScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABNScheduler.swift; sourceTree = "<group>"; };
+		08B8D1021D1DB09500437B87 /* KooKoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KooKoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B8D1051D1DB09500437B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08B8D10A1D1DB09500437B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08B8D10C1D1DB09500437B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08B8D10F1D1DB09500437B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08B8D1111D1DB09500437B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B8D1171D1DB0F400437B87 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		08FCE2E91D1F331A006E6AE1 /* SecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
+		0C6138D362D210AB95396381 /* Pods_KooKoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KooKoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA2F2243BA8B284E49C767F /* Pods-KooKooTodayWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooKooTodayWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-KooKooTodayWidget/Pods-KooKooTodayWidget.release.xcconfig"; sourceTree = "<group>"; };
+		B33C76BC25A9904BB5010B35 /* Pods_KooKooTodayWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KooKooTodayWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D057EFE4055FC5D809F565A4 /* Pods-KooKoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooKoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KooKoo/Pods-KooKoo.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A2337D7A136C4DFBEFF2A6 /* Pods-KooKoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooKoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KooKoo/Pods-KooKoo.release.xcconfig"; sourceTree = "<group>"; };
+		FCBFE1633A0DBB0B2036DFD9 /* Pods-KooKooTodayWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooKooTodayWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KooKooTodayWidget/Pods-KooKooTodayWidget.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08AE40E01D1DEB0600952711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AE40E51D1DEB0600952711 /* NotificationCenter.framework in Frameworks */,
+				BC7DBC8F7A5B6CF89D4F34AD /* Pods_KooKooTodayWidget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B8D0FF1D1DB09500437B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7192BD823829EE7603A25250 /* Pods_KooKoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065DBA22E7B2E7319B40C67F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C6138D362D210AB95396381 /* Pods_KooKoo.framework */,
+				08AE40E41D1DEB0600952711 /* NotificationCenter.framework */,
+				B33C76BC25A9904BB5010B35 /* Pods_KooKooTodayWidget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08AE40E61D1DEB0600952711 /* KooKooTodayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				08AE40E71D1DEB0600952711 /* TodayViewController.swift */,
+				08AE40E91D1DEB0600952711 /* MainInterface.storyboard */,
+				08AE40EC1D1DEB0600952711 /* Info.plist */,
+			);
+			path = KooKooTodayWidget;
+			sourceTree = "<group>";
+		};
+		08AE40FA1D1E8E8900952711 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				08AE40FB1D1E8E8900952711 /* CircularStd-Black.otf */,
+				08AE40FC1D1E8E8900952711 /* CircularStd-Bold.otf */,
+				08AE40FD1D1E8E8900952711 /* CircularStd-Book.otf */,
+				08AE40FE1D1E8E8900952711 /* CircularStd-Medium.otf */,
+			);
+			name = Fonts;
+			path = KooKoo/Fonts;
+			sourceTree = "<group>";
+		};
+		08AE410A1D1E8F9600952711 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				08AE41071D1E8F8F00952711 /* ZoneCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		08AE410E1D1EA4A700952711 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				08AE410B1D1E962F00952711 /* UIColor+.swift */,
+				08AE410F1D1EA9B100952711 /* UIView+Animations.swift */,
+			);
+			name = Infra;
+			sourceTree = "<group>";
+		};
+		08B8D0F91D1DB09500437B87 = {
+			isa = PBXGroup;
+			children = (
+				08AE40FA1D1E8E8900952711 /* Fonts */,
+				08B8D1041D1DB09500437B87 /* KooKoo */,
+				08AE40E61D1DEB0600952711 /* KooKooTodayWidget */,
+				08B8D1031D1DB09500437B87 /* Products */,
+				A2C205EF7232340E8379E628 /* Pods */,
+				065DBA22E7B2E7319B40C67F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08B8D1031D1DB09500437B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B8D1021D1DB09500437B87 /* KooKoo.app */,
+				08AE40E31D1DEB0600952711 /* KooKooTodayWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B8D1041D1DB09500437B87 /* KooKoo */ = {
+			isa = PBXGroup;
+			children = (
+				08AE410E1D1EA4A700952711 /* Infra */,
+				08AE410A1D1E8F9600952711 /* Cells */,
+				08B8D1051D1DB09500437B87 /* AppDelegate.swift */,
+				08AE40F41D1DEED000952711 /* APIClient.swift */,
+				08B8D1171D1DB0F400437B87 /* HomeViewController.swift */,
+				08AE40F61D1E863900952711 /* TrackingViewController.swift */,
+				08B8D1091D1DB09500437B87 /* Main.storyboard */,
+				08B8D10C1D1DB09500437B87 /* Assets.xcassets */,
+				08B8D10E1D1DB09500437B87 /* LaunchScreen.storyboard */,
+				08B8D1111D1DB09500437B87 /* Info.plist */,
+				08AE41151D1EBBD200952711 /* ABNScheduler.swift */,
+				08AE40F81D1E8BDD00952711 /* Globals.swift */,
+				08FCE2E91D1F331A006E6AE1 /* SecurityViewController.swift */,
+			);
+			path = KooKoo;
+			sourceTree = "<group>";
+		};
+		A2C205EF7232340E8379E628 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D057EFE4055FC5D809F565A4 /* Pods-KooKoo.debug.xcconfig */,
+				E3A2337D7A136C4DFBEFF2A6 /* Pods-KooKoo.release.xcconfig */,
+				FCBFE1633A0DBB0B2036DFD9 /* Pods-KooKooTodayWidget.debug.xcconfig */,
+				AFA2F2243BA8B284E49C767F /* Pods-KooKooTodayWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08AE40E21D1DEB0600952711 /* KooKooTodayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AE40F21D1DEB0600952711 /* Build configuration list for PBXNativeTarget "KooKooTodayWidget" */;
+			buildPhases = (
+				17C0764DFA1470C7BF5407EE /* [CP] Check Pods Manifest.lock */,
+				08AE40DF1D1DEB0600952711 /* Sources */,
+				08AE40E01D1DEB0600952711 /* Frameworks */,
+				08AE40E11D1DEB0600952711 /* Resources */,
+				F8C78F543E18CA9188E9DD8B /* [CP] Embed Pods Frameworks */,
+				5CC4DDFE71F30A3285B23ECB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KooKooTodayWidget;
+			productName = KooKooTodayWidget;
+			productReference = 08AE40E31D1DEB0600952711 /* KooKooTodayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		08B8D1011D1DB09500437B87 /* KooKoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B8D1141D1DB09500437B87 /* Build configuration list for PBXNativeTarget "KooKoo" */;
+			buildPhases = (
+				E03F6DAEF862802916B5AC65 /* [CP] Check Pods Manifest.lock */,
+				08B8D0FE1D1DB09500437B87 /* Sources */,
+				08B8D0FF1D1DB09500437B87 /* Frameworks */,
+				08B8D1001D1DB09500437B87 /* Resources */,
+				8BD634139C582D18CD44DE9F /* [CP] Embed Pods Frameworks */,
+				58A6DDFB3BC9B2D7590EC5BE /* [CP] Copy Pods Resources */,
+				08AE40F31D1DEB0600952711 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08AE40EE1D1DEB0600952711 /* PBXTargetDependency */,
+			);
+			name = KooKoo;
+			productName = KooKoo;
+			productReference = 08B8D1021D1DB09500437B87 /* KooKoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B8D0FA1D1DB09500437B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KooKoo;
+				TargetAttributes = {
+					08AE40E21D1DEB0600952711 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					08B8D1011D1DB09500437B87 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 08B8D0FD1D1DB09500437B87 /* Build configuration list for PBXProject "KooKoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08B8D0F91D1DB09500437B87;
+			productRefGroup = 08B8D1031D1DB09500437B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B8D1011D1DB09500437B87 /* KooKoo */,
+				08AE40E21D1DEB0600952711 /* KooKooTodayWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08AE40E11D1DEB0600952711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AE41061D1E8E8900952711 /* CircularStd-Medium.otf in Resources */,
+				08AE41001D1E8E8900952711 /* CircularStd-Black.otf in Resources */,
+				08AE41021D1E8E8900952711 /* CircularStd-Bold.otf in Resources */,
+				08AE40EB1D1DEB0600952711 /* MainInterface.storyboard in Resources */,
+				08AE41041D1E8E8900952711 /* CircularStd-Book.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B8D1001D1DB09500437B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AE41011D1E8E8900952711 /* CircularStd-Bold.otf in Resources */,
+				08AE41031D1E8E8900952711 /* CircularStd-Book.otf in Resources */,
+				08B8D1101D1DB09500437B87 /* LaunchScreen.storyboard in Resources */,
+				08B8D10D1D1DB09500437B87 /* Assets.xcassets in Resources */,
+				08AE40FF1D1E8E8900952711 /* CircularStd-Black.otf in Resources */,
+				08B8D10B1D1DB09500437B87 /* Main.storyboard in Resources */,
+				08AE41051D1E8E8900952711 /* CircularStd-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C0764DFA1470C7BF5407EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58A6DDFB3BC9B2D7590EC5BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KooKoo/Pods-KooKoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC4DDFE71F30A3285B23ECB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KooKooTodayWidget/Pods-KooKooTodayWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD634139C582D18CD44DE9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KooKoo/Pods-KooKoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03F6DAEF862802916B5AC65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C78F543E18CA9188E9DD8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KooKooTodayWidget/Pods-KooKooTodayWidget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08AE40DF1D1DEB0600952711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AE40E81D1DEB0600952711 /* TodayViewController.swift in Sources */,
+				08AE41111D1EA9B100952711 /* UIView+Animations.swift in Sources */,
+				08AE41091D1E8F8F00952711 /* ZoneCell.swift in Sources */,
+				08AE410D1D1E962F00952711 /* UIColor+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B8D0FE1D1DB09500437B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B8D1061D1DB09500437B87 /* AppDelegate.swift in Sources */,
+				08AE41101D1EA9B100952711 /* UIView+Animations.swift in Sources */,
+				08AE40F71D1E863900952711 /* TrackingViewController.swift in Sources */,
+				08B8D1181D1DB0F400437B87 /* HomeViewController.swift in Sources */,
+				08AE40F91D1E8BDD00952711 /* Globals.swift in Sources */,
+				08AE40F51D1DEED000952711 /* APIClient.swift in Sources */,
+				08AE41081D1E8F8F00952711 /* ZoneCell.swift in Sources */,
+				08AE41161D1EBBD200952711 /* ABNScheduler.swift in Sources */,
+				08FCE2EA1D1F331A006E6AE1 /* SecurityViewController.swift in Sources */,
+				08AE410C1D1E962F00952711 /* UIColor+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08AE40EE1D1DEB0600952711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08AE40E21D1DEB0600952711 /* KooKooTodayWidget */;
+			targetProxy = 08AE40ED1D1DEB0600952711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08AE40E91D1DEB0600952711 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AE40EA1D1DEB0600952711 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		08B8D1091D1DB09500437B87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B8D10A1D1DB09500437B87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08B8D10E1D1DB09500437B87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B8D10F1D1DB09500437B87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08AE40F01D1DEB0600952711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBFE1633A0DBB0B2036DFD9 /* Pods-KooKooTodayWidget.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KooKooTodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kookoo.KooKoo.KooKooTodayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		08AE40F11D1DEB0600952711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA2F2243BA8B284E49C767F /* Pods-KooKooTodayWidget.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KooKooTodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kookoo.KooKoo.KooKooTodayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08B8D1121D1DB09500437B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08B8D1131D1DB09500437B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08B8D1151D1DB09500437B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D057EFE4055FC5D809F565A4 /* Pods-KooKoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = KooKoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kookoo.KooKoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08B8D1161D1DB09500437B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A2337D7A136C4DFBEFF2A6 /* Pods-KooKoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = KooKoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kookoo.KooKoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08AE40F21D1DEB0600952711 /* Build configuration list for PBXNativeTarget "KooKooTodayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AE40F01D1DEB0600952711 /* Debug */,
+				08AE40F11D1DEB0600952711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B8D0FD1D1DB09500437B87 /* Build configuration list for PBXProject "KooKoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B8D1121D1DB09500437B87 /* Debug */,
+				08B8D1131D1DB09500437B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B8D1141D1DB09500437B87 /* Build configuration list for PBXNativeTarget "KooKoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B8D1151D1DB09500437B87 /* Debug */,
+				08B8D1161D1DB09500437B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08B8D0FA1D1DB09500437B87 /* Project object */;
+}
