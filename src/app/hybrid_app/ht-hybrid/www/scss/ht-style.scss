@@ -1,0 +1,215 @@
+.kookoo-90{
+  transform: rotate(90deg) !important;
+}
+
+.kookoo-90-neg{
+  transform: rotate(-90deg) !important;
+}
+
+
+.kookoo-140{
+  transform: rotate(130deg) !important;
+}
+
+.kookoo-140-neg{
+  transform: rotate(-130deg) !important;
+  display: block;
+  font-weight: bold !important;
+  font-family: Arial Black;
+  letter-spacing: -1px;
+}
+
+.kookoo-190{
+  transform: rotate(170deg) !important;
+}
+
+.kookoo-190-neg{
+  transform: rotate(-170deg) !important;
+}
+
+
+.kookoo-210{
+  transform: rotate(210deg) !important;
+}
+
+.kookoo-210-neg{
+  transform: rotate(-210deg) !important;
+}
+
+
+
+
+.kookoo-360{
+  transform: rotate(360deg) !important;
+}
+
+.kookoo-360-neg{
+  transform: rotate(-360deg) !important;
+}
+
+.kookoo-330{
+  transform: rotate(330deg) !important;
+}
+
+.kookoo-330-neg{
+  transform: rotate(-330deg) !important;
+}
+
+.kookoo-280{
+  transform: rotate(280deg) !important;
+}
+
+.kookoo-280-neg{
+  transform: rotate(-280deg) !important;
+}
+
+
+.kookoo-menu {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto 100px;
+  position: relative;
+  -webkit-filter: url("#goo");
+  filter: url("#goo");
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.kookoo-menu-wrapper {
+  position: absolute;
+  left: 52%;
+  bottom: 80px;
+}
+
+.kookoo-menu-toggle-button, .kookoo-no-go-btn{
+  font-weight: bold;
+}
+
+.kookoo-menu-toggle-button,
+.kookoo-menu-item-bounce,
+.kookoo-menu-item-button {
+  background: #f5ff00;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-left: -60px;
+  margin-top: -60px;
+  color: #0f5959;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+
+.kookoo-no-go-btn{
+  background: #ff2832 !important;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-left: -60px;
+  margin-top: -60px;
+  color: #fff;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+.no-go-notify{
+  color: #fff;
+}
+
+
+
+.kookoo-menu-toggle-button, .kookoo-no-go-btn {
+ font-family: 'Bebas Neue';
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.kookoo-menu-toggle-icon {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.kookoo-menu-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.kookoo-menu-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+.kookoo-menu-item-bounce {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.kookoo-menu-item-button {
+  width: 60px;
+  height: 60px;
+  margin-left: -30px;
+  margin-top: -30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #0f5959;
+}
+
+.kookoo-menu-item-button:hover {
+  color: #fff;
+}
+
+
+div.kookoo-zone{
+  background-color: #0f5959;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  div{
+
+    border-left: 4px solid red;
+    padding-left: 14px;
+    margin-left: 24px;
+    padding-top: 6px;
+  }
+
+}
+
+.kookoo-current{
+  background-color: #0a2d2d;
+  border-top: 1px solid #083131;
+}
+
+.kookoo-current
+
+  .arrow:after {
+  content:'';
+  position: absolute;
+  top: 99%;
+  left: 50%;
+  margin-left: -50px;
+  width: 0;
+  height: 0;
+  border-top: solid 16px #fff;
+  border-left: solid 16px transparent;
+  border-right: solid 16px transparent;
+}

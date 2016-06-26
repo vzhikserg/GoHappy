@@ -1,0 +1,33 @@
+
+<div class="kookoo-menu">
+        <div class="kookoo-menu-wrapper ">
+        <!-- kookoo buttons -->
+
+        <ul class="kookoo-menu-items">
+            <li ng-repeat="MenuItem in menuItems" class="kookoo-menu-item" ng-class="MenuItem.menuStyle.style" kookoo-node>
+                <button class="kookoo-menu-item-button" style="transform: translate3d(0px,0px)" ng-click="routeTo(MenuItem.target)">
+
+                    <fa ng-if="MenuItem.icon" name="{{MenuItem.icon}}" size="{{MenuItem.iconSize ? MenuItem.iconSize : 2}}" class="kookoo-menu-item-icon icon icon-box"  ng-class="MenuItem.iconStyle.style"></fa>
+                    <span ng-class="MenuItem.iconStyle.style" ng-if="MenuItem.text" class="kookoo-menu-item-icon icon icon-box"><strong>{{MenuItem.text}}</strong></span>
+
+                </button>
+                <div class="kookoo-menu-item-bounce" style="transform: translate3d(0px, 0px, 0px) scale(0.8, 0.8); transform-origin: 50% 50% 0px;"></div>
+            </li>
+        </ul>
+
+        <!-- core kookoo node -->
+        <button class=" kookoo-menu-toggle-button {{settings.styleClass}}" kookoo-toggle>{{settings.text}}</button>
+
+    </div>
+</div>
+<p class="padding text-center" ng-if="settings.showWarning">
+    <span ng-bind-html="settings.warning"></span>
+</p>
+
+<div ng-if="settings.showZone">
+    <div class="kookoo-zone">
+        <div>
+            <sup>Zone</sup><br/>
+            Klagenfurt</div>
+    </div>
+</div>
