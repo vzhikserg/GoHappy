@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1" creator="http://www.geoplaner.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<rte>
+<name>bus2</name>
+<rtept lat="46.62939" lon="14.31465" time="1466866678495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.62977" lon="14.31336" time="1466866700495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63036" lon="14.31177" time="1466866720495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.6308" lon="14.31036" time="1466866749495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63098" lon="14.30954" time="1466866791495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63124" lon="14.30813" time="1466866822495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63154" lon="14.30744" time="1466866842495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.6316" lon="14.3065" time="1466866862495"> h
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63189" lon="14.30508" time="1466866876495"> i
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63207" lon="14.30379" time="1466866888495">j
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63219" lon="14.30289" time="1466866936495">k
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63228" lon="14.30238" time="1466866960495">l
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63345" lon="14.30246" time="1466867004495">m
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63449" lon="14.30259" time="1466867036495">n
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63516" lon="14.30315" time="1466867066495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63543" lon="14.3022" time="1466867097495">p
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63543" lon="14.30173" time="1466867141495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63652" lon="14.3022" time="1466867195495">s
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63705" lon="14.30293" time="1466867205495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63743" lon="14.30341" time="1466867221495">u
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63767" lon="14.30418" time="1466867242495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63767" lon="14.30572" time="1466867254495">w
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63743" lon="14.30701" time="1466867295495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63723" lon="14.30795" time="1466867340495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63705" lon="14.30881" time="1466867352495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63681" lon="14.30946" time="1466867374495">1
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.6367" lon="14.31031" time="1466867386495">2
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63661" lon="14.31104" time="1466867413495">3
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63661" lon="14.31169" time="1466867449495">4
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63658" lon="14.31246" time="1466867479495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63779" lon="14.31298" time="1466867508495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63897" lon="14.31362" time="1466867556495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.64029" lon="14.31422" time="1466867591495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.64153" lon="14.31469" time="1466867609495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.64262" lon="14.31499" time="1466867628495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.64389" lon="14.31465" time="1466867641495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+</rte>
+</gpx>

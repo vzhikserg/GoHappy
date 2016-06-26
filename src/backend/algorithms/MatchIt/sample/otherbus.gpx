@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1" creator="http://www.geoplaner.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<rte>
+<name>otherbus</name>
+
+<rtept lat="46.63433" lon="14.32098" time="1466865590495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63474" lon="14.32304" time="1466865629495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63551" lon="14.32579" time="1466865647495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63663" lon="14.32862" time="1466865658495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63733" lon="14.33257" time="1466865682495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63733" lon="14.33609" time="1466865718495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63727" lon="14.339" time="1466865746495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63704" lon="14.34218" time="1466865780495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63698" lon="14.34493" time="1466865795495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+<rtept lat="46.63657" lon="14.35008" time="1466865840495">
+<ele>447.6</ele>
+<name>WP02-B</name>
+</rtept>
+
+</rte>
+</gpx>
