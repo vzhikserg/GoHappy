@@ -42,6 +42,16 @@ We had a well balanced team that is why we could divide the tasks in the best po
  * **Rafael** implemented the matching algorithms.
  * **Channa** wrote the native iOS application to test different features and improve user experience.
 
+## Algorithms
+
+There are three algorithms to provide the simplest transportation you've ever seen:
+
+* **FiterIt** helps to find vehicles which are close to your location now.
+* **MatchIt** matches the track of the user with the vehicle. 
+* **ClusterIt** if we have a couple of matches we can use information from other anonymized users with assigned line to find the fitting line as soon as possible. 
+
+<img src="images/algo.gif" align="center">
+
 ## Acknowledgement
 
 We would like to thank the organisers of the hackathon and everyone who came from the foreigh countries to take part in this event.
