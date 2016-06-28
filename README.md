@@ -1,7 +1,7 @@
 # GoHappy
 
 
-The solution for the [„What the hack!“ hackathon](http://www.hackathon.click/) developed by the Austrian team. The event took part from 24.06.2016 till 26.06.2016 in St.Salvator 9361 (Austria). The main idea of the hackathon was to develop a mobility app for the region of Carinthia. 
+The solution for the [„What the hack!“ hackathon](http://www.hackathon.click/) developed by the Austrian team. The event took place from 24.06.2016 till 26.06.2016 in St.Salvator 9361 (Austria). The main idea of the hackathon was to develop a mobility app for the region of Carinthia. 
 
 ## The Team KOO-KOO
 
